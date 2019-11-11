@@ -4,12 +4,14 @@ using UnityEngine;
 [CreateAssetMenu]
 public class CharacterMoveWhenGrounded : CharacterBase
 {
-
-    djksaopdjsadas(Controller.isGrounded)
+    public override void Move()
     {
-        location.x = Input.GetAxis("Horizontal") * moveSpeed;
+        Grounded();
+        base.Move();
     }
-    location.x = Input.GetAxis("Horizontal") * moveSpeed;
-    location.y += gravity * Time.deltaTime;
-    Controller.Move(location * Time.deltaTime);
+
+    public override void Grounded()
+    {
+        base.Grounded();
+    }
 }
