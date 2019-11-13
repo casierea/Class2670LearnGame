@@ -9,8 +9,8 @@ public class CharacterMoveJump : CharacterBase,IMove
     public override void Move()
     {
 
-        jump();
-        move();
+        Jump();
+        base.Move();
         //if(Input.GetButton("Jump"))
         //{
        //     location.y = jumpSpeed;
