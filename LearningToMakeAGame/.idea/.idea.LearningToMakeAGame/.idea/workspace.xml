@@ -12,31 +12,34 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/CharacterMoveAndJumpGrounded.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CharacterBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CharacterBase.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GameAction.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CharacterMovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CharacterMoveJump.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CowinPowerUp.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CharacterNotGrounded.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Coin.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CharacterMoveWhenGrounded.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Weapons/WeaponButtonHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Weapons/AmmoHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/collections/CoinCollection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Weapons/WeaponConfig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Coin.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Weapons/GameAction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Weapons/FloatData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Weapons/WeaponHandler.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/CharacterBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/CharacterBase.cs" />
-        <option value="$PROJECT_DIR$/Assets/CharacterMoveAndJumpGrounded.cs" />
-        <option value="$PROJECT_DIR$/Assets/CharacterMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/CharacterMoveJump.cs" />
-        <option value="$PROJECT_DIR$/Assets/CharacterMoveWhenGrounded.cs" />
         <option value="$PROJECT_DIR$/Assets/CowinPowerUp.cs" />
-        <option value="$PROJECT_DIR$/Assets/GameAction.cs" />
         <option value="$PROJECT_DIR$/Assets/Coin.cs" />
         <option value="$PROJECT_DIR$/Assets/collections/CoinCollection.cs" />
+        <option value="$PROJECT_DIR$/Assets/CharacterMoveJump.cs" />
+        <option value="$PROJECT_DIR$/Assets/CharacterMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/CharacterMoveWhenGrounded.cs" />
+        <option value="$PROJECT_DIR$/Assets/CharacterBase.cs" />
+        <option value="$PROJECT_DIR$/Assets/CharacterBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/CharacterMoveAndJumpGrounded.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Weapons/GameAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Weapons/WeaponButtonHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Weapons/AmmoHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Weapons/WeaponHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Weapons/FloatData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Weapons/WeaponConfig.cs" />
       </list>
     </option>
   </component>
@@ -89,6 +92,7 @@
       <workItem from="1573504552599" duration="2921000" />
       <workItem from="1573508014527" duration="484000" />
       <workItem from="1573676984565" duration="3561000" />
+      <workItem from="1574108308384" duration="6023000" />
     </task>
     <servers />
   </component>
@@ -112,6 +116,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="618" y="238" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" />
+    <state x="618" y="238" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1920.1080" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
