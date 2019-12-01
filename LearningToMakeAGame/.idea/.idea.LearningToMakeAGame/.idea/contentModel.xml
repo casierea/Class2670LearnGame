@@ -10,6 +10,10 @@
         <e p="collections" t="Include">
           <e p="CoinCollection.cs" t="Include" />
         </e>
+        <e p="PracticeDialogue" t="Include">
+          <e p="Dialogue.cs" t="Include" />
+          <e p="DialogueManager.cs" t="Include" />
+        </e>
         <e p="Weapons" t="Include">
           <e p="AmmoHandler.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />

@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/NOv1801.unity
+- path: Assets/Scenes/DialoguePractice.unity
   isLoaded: 1
   isActive: 1
