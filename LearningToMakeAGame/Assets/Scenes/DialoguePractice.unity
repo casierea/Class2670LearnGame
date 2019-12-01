@@ -182,7 +182,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: 'click here
+
+'
 --- !u!222 &671478787
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -242,9 +244,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'NPC SAnem
-
-    w'
+  m_Text: Collect Stuff
 --- !u!222 &763572197
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -269,7 +269,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 35.5, y: 30.1}
+  m_AnchoredPosition: {x: 35.5, y: 29.2}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &944309876
@@ -283,6 +283,7 @@ GameObject:
   - component: {fileID: 944309877}
   - component: {fileID: 944309879}
   - component: {fileID: 944309878}
+  - component: {fileID: 944309880}
   m_Layer: 5
   m_Name: DialogueBox
   m_TagString: Untagged
@@ -309,7 +310,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 15.8}
+  m_AnchoredPosition: {x: 0, y: 15}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &944309878
@@ -349,6 +350,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 944309876}
   m_CullTransparentMesh: 0
+--- !u!95 &944309880
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 944309876}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 50c88b3be3d68ac499375e179417e1e4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &947911695
 GameObject:
   m_ObjectHideFlags: 0
@@ -380,6 +400,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: {fileID: 763572196}
   dialogueText: {fileID: 1973770898}
+  animator: {fileID: 944309880}
 --- !u!4 &947911697
 Transform:
   m_ObjectHideFlags: 0
@@ -547,11 +568,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: tom cruise
+    name: Bayou Bumpkin
     sentences:
-    - a
-    - b
-    - c
+    - We are going on a Bayou Adventure!
+    - Collect the objects to get ready for your journey!
+    - Drag the object to the backpack. You will know you picked the right one when
+      it sparkles!
+    - Good luck!
 --- !u!114 &1255125806
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -781,7 +804,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Start Conversation
+  m_Text: 'Click Here to Begin!
 
 '
 --- !u!222 &1614199824
@@ -991,9 +1014,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'This is the Dialogue Box
-
-'
+  m_Text: "Hello Adeventurere! \n"
 --- !u!222 &1973770899
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1049,7 +1070,7 @@ RectTransform:
   m_GameObject: {fileID: 2127867374}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.59343, y: 0.59343, z: 0.59343}
   m_Children:
   - {fileID: 671478785}
   m_Father: {fileID: 944309877}
@@ -1057,7 +1078,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.3, y: -40.2}
+  m_AnchoredPosition: {x: 1.4, y: -38.3}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2127867376

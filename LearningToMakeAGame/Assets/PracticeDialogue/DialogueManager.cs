@@ -7,6 +7,8 @@ public class DialogueManager : MonoBehaviour
 {
     public Text nameText;
     public Text dialogueText;
+
+    public Animator animator;
     
     private Queue<string> sentences;
    
@@ -17,6 +19,7 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(Dialogue dialogue)
     {
+        animator.SetBool("IsOpen", true);
         //Debug.Log("Start Conversation" + dialogue.name);
 
         nameText.text = dialogue.name;
@@ -43,6 +46,7 @@ public class DialogueManager : MonoBehaviour
 
     void EndDialogue()
     {
+        animator.SetBool("IsOpen", false);
         Debug.Log("end of converastion");
     }
 }
