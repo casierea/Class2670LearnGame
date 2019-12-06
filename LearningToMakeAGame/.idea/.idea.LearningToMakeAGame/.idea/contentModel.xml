@@ -11,6 +11,7 @@
           <e p="CoinCollection.cs" t="Include" />
         </e>
         <e p="PracticeDialogue" t="Include">
+          <e p="DialogBox.cs" t="Include" />
           <e p="Dialogue.cs" t="Include" />
           <e p="DialogueManager.cs" t="Include" />
           <e p="DialogueTrigger.cs" t="Include" />
